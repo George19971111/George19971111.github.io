@@ -64,6 +64,19 @@
     font-size: 60px;
   }
 }
+@include DesctopScreen{
+  .myMenu_sectiontype li a{
+    font-size:13px;
+  }
+  .myMenu_sectiontype{
+    width:400px;
+    max-width:100%;
+  }
+  .header_container__logo svg{
+    width:100px;
+    height:auto;
+  }
+}
 @include IpadScreen {
 }
 

@@ -45,6 +45,10 @@ input, input:active, input:focus { outline: none; }
   .myMenu_sectiontype { width: 500px; margin-top: 5px; }
   .header_container__logo a { font-size: 60px; } }
 
+@media screen and (max-width: 1500px) and (max-height: 800px) and (min-width: 815px) { .myMenu_sectiontype li a { font-size: 13px; }
+  .myMenu_sectiontype { width: 400px; max-width: 100%; }
+  .header_container__logo svg { width: 100px; height: auto; } }
+
 @media screen and (max-width: 675px) { .header_container__logo { display: none; }
   .myMenu_sectiontype { margin: 0 auto; } }
 
@@ -269,6 +273,13 @@ input, input:active, input:focus { outline: none; }
   .secondt_section__content__text p { font-size: 15px; margin-top: 20px; text-align: center; }
   .secondt_section__content__text button { display: block; margin: 20px auto 0px auto; } }
 
+@media screen and (max-width: 1500px) and (max-height: 800px) and (min-width: 815px) { .secondt_section__content__text button { width: 130px; height: 37px; max-width: 100%; font-size: 13px; }
+  .secondt_section__content__text h3 { font-size: 40px; }
+  #lottie { width: auto; height: auto; }
+  .sizing_testtask { width: 500px; height: auto; }
+  .six_section_container_s__text { font-size: 40px; }
+  .six_section_container_s__list__flex p { font-size: 20px; } }
+
 @media screen and (max-width: 675px) { .modal_windows__block__content_right__list_main { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   .modal_windows__block__content_right__text { text-align: center; }
   .portfolio_item_smm__toper h4 { text-align: center; }
@@ -320,6 +331,10 @@ input, input:active, input:focus { outline: none; }
 
 @media screen and (max-width: 1650px) { .footer_container { width: 95%; max-width: 100%; }
   .footer_container__flex_last { font-size: 30px; } }
+
+@media screen and (max-width: 1500px) and (max-height: 800px) and (min-width: 815px) { .footer_container__flex a img { width: 20px; height: 20px; }
+  .footer_container__flex { height: 90px; }
+  .footer_container__flex_last { font-size: 25px; } }
 
 @media screen and (max-width: 500px) { .footer_container { height: 30px; }
   .footer_container__flex_last { font-size: 25px; }

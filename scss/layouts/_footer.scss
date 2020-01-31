@@ -35,6 +35,18 @@
     font-size: 30px;
   }
 }
+@include DesctopScreen{
+  .footer_container__flex  a img{
+    width:20px;
+    height:20px;
+  }
+  .footer_container__flex{
+    height:90px;
+  }
+  .footer_container__flex_last {
+    font-size: 25px;
+  }
+}
 @include lowIpad {
 }
 @include PhoneScreen {

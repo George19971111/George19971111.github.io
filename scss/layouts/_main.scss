@@ -712,7 +712,34 @@
     margin: 20px auto 0px auto;
   }
 }
+@include DesctopScreen{
+  .secondt_section__content__text button{
+    width:130px;
+    height:37px;
+    max-width:100%;
+    font-size:13px;
+  }
+  .secondt_section__content__text h3{
+    font-size:40px
+  }
+  #lottie{
+    width:auto;
+    height:auto;
+  }
+  .sizing_testtask{
+    width:500px;
+    height:auto;
+  }
+  .six_section_container_s__text{
+    font-size:40px;
+  }
+  .six_section_container_s__list__flex p{
+    font-size:20px;
+  }
+}
+
 @include lowIpad {
+
   .modal_windows__block__content_right__list_main {
     flex-direction: column;
   }
