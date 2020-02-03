@@ -245,6 +245,8 @@ input, input:active, input:focus { outline: none; }
 
 .taska_out { margin-top: 36px; }
 
+.taska_out1 { margin-top: 36px; }
+
 .task_mainer { width: 847px; max-width: 100%; height: auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 .task_mainer__file { width: 847px; height: auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
@@ -332,7 +334,8 @@ input, input:active, input:focus { outline: none; }
   .modal_windows__block__content_right { margin-top: 30px; }
   .modal_windows__block { height: auto; padding-bottom: 40px; } }
 
-@media screen and (max-width: 1024px) { .deleter_screener { display: none; }
+@media screen and (max-width: 1024px) { .taska_out1 { margin-top: 0px; }
+  .deleter_screener { display: none; }
   .form_controller__button { display: block; margin: 20px auto 0px auto; }
   .brif__content { text-align: center; }
   .form_controller__brif { display: none; }
@@ -372,7 +375,16 @@ input, input:active, input:focus { outline: none; }
   .secondt_section__content__text p { font-size: 15px; margin-top: 20px; text-align: center; }
   .secondt_section__content__text button { display: block; margin: 20px auto 0px auto; } }
 
-@media screen and (max-width: 1500px) and (max-height: 800px) and (min-width: 815px) { .taska_out { display: none; }
+@media screen and (max-width: 1500px) and (max-height: 800px) and (min-width: 815px) { .checkbox label::before { top: 13px; }
+  .mainer_for_checkbox { height: 50px; }
+  .mainer_for_checkbox_pp { -webkit-align-self: center; -ms-flex-item-align: center; align-self: center; }
+  .checkbox input[type="checkbox"]:checked + label::after { left: 4px; top: 33px; }
+  .checkbox label::before { width: 27px; height: 27px; }
+  .form_controller__button { margin-top: 15px; }
+  .form_controller__brif__item { height: 50px; font-size: 14px; }
+  .taska_out1 { margin-top: 10px; }
+  .name_former { height: 50px; font-size: 14px; }
+  .taska_out { display: none; }
   .task_mainer__file { display: none; }
   .secondt_section__content__text button { width: 130px; height: 37px; max-width: 100%; font-size: 13px; }
   .secondt_section__content__text_form h3 { font-size: 40px; }

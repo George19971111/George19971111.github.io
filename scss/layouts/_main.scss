@@ -656,6 +656,9 @@
 .taska_out {
   margin-top: 36px;
 }
+.taska_out1{
+  margin-top:36px;
+}
 .task_mainer {
   width: 847px;
   max-width: 100%;
@@ -903,6 +906,9 @@
   }
 }
 @include IpadRevesing {
+  .taska_out1{
+    margin-top:0px;
+  }
   // .secondt_section__content__text_fleinx{
   //   justify-content: center;
   // }
@@ -1038,6 +1044,38 @@
   }
 }
 @include DesctopScreen {
+  .checkbox label::before {
+    top: 13px;
+}
+  .mainer_for_checkbox{
+    height:50px;
+
+  }
+  .mainer_for_checkbox_pp{
+    align-self: center;
+  }
+  .checkbox input[type="checkbox"]:checked + label::after{
+    left: 4px;
+    top: 33px;
+  }
+  .checkbox label::before{
+    width:27px;
+    height:27px;
+  }
+  .form_controller__button{
+    margin-top:15px;
+  }
+  .form_controller__brif__item{
+    height:50px;
+    font-size:14px;
+  }
+  .taska_out1{
+    margin-top:10px;
+  }
+  .name_former{
+    height:50px;
+    font-size:14px;
+  }
   .taska_out {
     display: none;
   }
