@@ -78,6 +78,10 @@
   }
 }
 @include IpadScreen {
+  .header_container__logo svg{
+    width: 100px;
+    max-width: 100%;
+  }
 }
 
 @include lowIpad {
@@ -89,24 +93,40 @@
   }
 }
 @include PhoneScreen {
+  .header_container__logo{
+    display: block;
+  }
+  .header_container__logo svg{
+    width: 70px;
+    max-width: 100%;
+  }
   .myMenu_sectiontype li a {
     font-size: 13px;
     padding: 5px 5px;
   }
   .myMenu_sectiontype {
-    width: 210px;
+    margin: 0;
+    width: 186px;
   }
   .header_container {
     height: 90px;
   }
 }
 @include HeightScreen {
+  .header_container__logo{
+    display: block;
+  }
+  .header_container__logo svg{
+    width: 70px;
+    max-width: 100%;
+  }
   .myMenu_sectiontype li a {
     font-size: 13px;
     padding: 5px 5px;
   }
   .myMenu_sectiontype {
-    width: 210px;
+    margin: 0;
+    width: 186px;
   }
   .header_container {
     height: 90px;

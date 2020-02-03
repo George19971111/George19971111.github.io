@@ -50,6 +50,10 @@
 @include lowIpad {
 }
 @include PhoneScreen {
+
+  .footer_container__flex_last{
+    display: none;
+  }
   .footer_container {
     height:30px;
   }
