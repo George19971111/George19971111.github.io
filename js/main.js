@@ -16,8 +16,9 @@ $(document).ready(function() {
     menu: "#myMenu",
     onLeave: function(index, nextIndex, direction) {
       let nextitem = `0${index}-05`;
-      let nextnext = `0${nextIndex}-05`;
+      let nextnext = `0${nextIndex}-06`;
       if (nextIndex == 1) {
+        document.querySelector('.a').style.fill = '#4a4697'
         document.getElementById("lottie").innerHTML = "";
         lottie.loadAnimation({
           container: document.getElementById("lottie"), // the dom element that will contain the animation
@@ -28,44 +29,64 @@ $(document).ready(function() {
         });
       }
       if (nextIndex == 2) {
+        setTimeout(() => {
+          document.querySelector('.a').style.fill = '#ff3333'
+        }, 600);
         document.getElementById("test_1").innerHTML = "";
         lottie.loadAnimation({
           container: document.getElementById("test_1"), // the dom element that will contain the animation
           renderer: "svg",
           loop: false,
           autoplay: true,
-          path: "dataf.json",
+          path: "dataweb.json",
           rendererSettings: {
             progressiveLoad: false
           }
         });
       }
       if (nextIndex == 3) {
+        setTimeout(() => {
+          document.querySelector('.a').style.fill = '#3399cc'
+        }, 600);
         document.getElementById("test_2").innerHTML = "";
         lottie.loadAnimation({
           container: document.getElementById("test_2"), // the dom element that will contain the animation
           renderer: "svg",
           loop: false,
           autoplay: true,
-          path: "datasecond.json",
+          path: "datasmm.json",
           rendererSettings: {
             progressiveLoad: false
           }
         });
       }
       if (nextIndex == 4) {
+        setTimeout(() => {
+          document.querySelector('.a').style.fill = '#ff9900'
+        }, 600);
         document.getElementById("test_3").innerHTML = "";
         lottie.loadAnimation({
           container: document.getElementById("test_3"), // the dom element that will contain the animation
           renderer: "svg",
           loop: false,
           autoplay: true,
-          path: "datalast.json",
+          path: "datamp4.json",
           rendererSettings: {
             progressiveLoad: false
           }
         });
       }
+      if (nextIndex == 5) {
+        setTimeout(() => {
+          document.querySelector('.a').style.fill = '#3366cc'
+        }, 600);
+      }
+      if (nextIndex == 6) {
+        setTimeout(() => {
+          document.querySelector('.a').style.fill = '#9966cc'
+        }, 600);
+      }
+
       if (deleteLog) {
         document.querySelector(
           ".footer_container__flex_last"
@@ -152,3 +173,21 @@ $(".modal__windows").scroll(function() {
     $("#arrow_hidden2").css("opacity", "0");
   }
 });
+
+let arrayBrif = []
+let allBrifItem = document.querySelectorAll('.form_controller__brif__item')
+for(let i = 0; i<allBrifItem.length; i++){
+  allBrifItem[i].addEventListener('click',()=>{
+    allBrifItem[i].classList.toggle('selected')
+  })
+}
+document.querySelector('.form_controller__button').addEventListener('click',()=>{
+  for(let i =0; i<allBrifItem.length; i++){
+    if(allBrifItem[i].classList.contains('selected')){
+      arrayBrif.push(allBrifItem[i].innerText)
+      allBrifItem[i].classList.remove('selected')
+    }
+  }
+console.log(arrayBrif)
+arrayBrif = []
+})

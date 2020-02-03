@@ -44,6 +44,7 @@
             width="35.72mm"
             height="22.54mm"
             viewBox="0 0 101.25 63.9"
+            id="deffs"
           >
             <defs>
               <style>
@@ -77,13 +78,15 @@
 
       <nav id="myMenu" class="myMenu_sectiontype">
         <li data-menuanchor="firstPage" class="active">
-          <a href="#firstPage">Услуги</a>
+          <a href="#firstPage">Контакты</a>
         </li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">Кейсы</a></li>
-        <li data-menuanchor="thirdPage"><a href="#thirdPage">Контакты</a></li>
+        <li data-menuanchor="secondPage">
+          <a href="#secondPage">Сотрудничать</a>
+        </li>
+        <!-- <li data-menuanchor="thirdPage"><a href="#thirdPage">Контакты</a></li>
         <li data-menuanchor="fourthPage">
           <a href="#fourthPage">Оставить заявку</a>
-        </li>
+        </li> -->
       </nav>
     </header>
 
@@ -142,7 +145,77 @@
       </div>
       <div class="section five_section" id="fivePage">
         <div class="secondt_section__content">
-          <div class="secondt_section__content__text">
+          <div class="secondt_section__content__text_form">
+            <h3>Сотрудничать</h3>
+            <p>
+              Заполните бриф, если хотите. Если нет, отправьте ваши контактные
+              данные, и мы сами все заполним.
+            </p>
+          </div>
+          <div class="secondt_section__content__form">
+            <form action="" class="form_controller">
+              <div class="secondt_section__content__brifblock">
+                <p class="brif__content tip_producta">Тип продукта</p>
+                <div class="form_controller__brif">
+                  <div class="form_controller__brif__item">
+                    Разработка сайта
+                  </div>
+                  <div class="form_controller__brif__item">
+                    Мобильная разработка
+                  </div>
+                  <div class="form_controller__brif__item">
+                    Система или сервис
+                  </div>
+                  <div class="form_controller__brif__item">
+                    SMM услуги
+                  </div>
+                  <div class="form_controller__brif__item">
+                    Фотосъемка
+                  </div>
+                  <div class="form_controller__brif__item">
+                    Видеореклама
+                  </div>
+                </div>
+              </div>
+              <p class="brif__content taska_out">Задача</p>
+              <div class="task_mainer__file">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Расскажите о своей задаче"
+                    class="task_mainer_task"
+                  />
+                </div>
+                <div class="task_mainer_task__file">
+                  <label class="label_file" for="upload-file"
+                    >Прикрепить файл <img src="img/icons/skrepka.png" alt=""
+                  /></label>
+                  <input type="file" id="upload-file" />
+                </div>
+              </div>
+              <p class="brif__content taska_out1">Контакты</p>
+              <div class="task_mainer">
+                <input type="text" class="name_former" placeholder="Имя" />
+                <input type="email" class="name_former" placeholder="e-mail" />
+                <input type="tel" class="name_former" placeholder="Телефон" />
+                <div class="mainer_for_checkbox">
+                  <div class="checkbox">
+                    <input type="checkbox" checked id="checkbox_1" />
+                    <label for="checkbox_1"></label>
+                  </div>
+                  <p class="mainer_for_checkbox_pp">
+                    Я согласен(а) на обработку персональных данных
+                  </p>
+                </div>
+              </div>
+
+              <button type="button" class="form_controller__button">
+                Отправить
+              </button>
+            </form>
+          </div>
+
+          <!-- <div class="secondt_section__content__text">
             <h3>Заявка на сотрудничество</h3>
             <form class="secondt_section__content__form">
               <input placeholder="Телефон" type="text" />
@@ -151,40 +224,45 @@
               <input placeholder="Комментарий" type="text" />
               <button class="five_section_button">Отправить</button>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class="section six_section" id="sixPage">
-          <div class="six_section_container_s">
-              <p class="six_section_container_s__text">Контакты</p>
-              
-              <div class="six_section_container_s__list">
-                  <div class="six_section_container_s__list__flex">
-                    <div><img src="img/icons/phone.png" alt=""></div>
-                    <p><a href="tel:+77078115495">+7 707 811 54 95</a></p>
-                  </div>
-                  <!-- <div class="six_section_container_s__list__flex">
-                    <div><img src="img/icons/phone.png" alt=""></div>
-                    <p><a href="tel:+77078115495">+7 701 982 34 90</a></p>
-                  </div> -->
-                  <div class="six_section_container_s__list__flex">
-                    <div><img src="img/icons/email.png" alt=""></div>
-                    <p><a href="mailto:tm.agency@gmail.com">tm.agency@gmail.com</a></p>
-                  </div>
-                 
-              </div>
+        <div class="secondt_section__content">
+          <div class="secondt_section__content__text deleter_screener">
+            <h3>О нас</h3>
+            <p>
+              Мы работаем в команде сильных руководителей, современных
+              арт-директоров и дизайнеров, опытных team lead’ов и менеджеров. У
+              многих из нас опыт по 7–15 лет в digital, но мы также даём шанс
+              проявить себя новичкам. У нас 10 часовой рабочий день — это
+              позволяет нам производить нужный нашему клиенту продукт
+            </p>
           </div>
-
+          <div class="secondt_section__content__text reddead">
+            <h3>Связаться с нами</h3>
+            <div class="outsider_div">
+            <div class="secondt_section__content__text_fleinx">
+              <img src="img/icons/phoneus.png" alt="">
+              <h6><a href="tel:+77078115495">+7 707 811 54 95</a></h6>
+            </div>
+            <div class="secondt_section__content__text_fleinx">
+              <img src="img/icons/mailerin.png" alt="">
+              <h6> <a href="mailto:tm.agency@gmail.com">tm.agency@gmail.com</a></h6>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- </div> -->
     <!-- PagePiling_render_end -->
 
     <footer class="footer_container">
       <div class="footer_container__flex">
         <a href=""><img src="img/icons/instagram.png" alt=""/></a>
         <a href=""><img src="img/icons/whatsapp.png" alt=""/></a>
-        <a href="mailto:tm.agency@gmail.com"><img src="img/icons/poshta.png" alt=""/></a>
       </div>
       <div class="footer_container__flex_last">
         <p>01-05</p>
@@ -486,7 +564,9 @@
               осуществляет оптовую и розничную реализацию<br />
               нефтепродуктов производства Омского нефтеперерабатывающего завода.
             </h4>
-            <div class="portfolio_item_smm__zero__smm_flex1 portfolio_item_smm__zero__smm_flex1__d">
+            <div
+              class="portfolio_item_smm__zero__smm_flex1 portfolio_item_smm__zero__smm_flex1__d"
+            >
               <div>
                 <img src="img/components/element_one.png" alt="" />
                 <h6 class="first_element">Развлекательные</h6>
@@ -577,7 +657,6 @@
             <div class="portfolio_item_smm__zero_re">
               <div class="kek12">
                 <img src="img/components/hansgroh.png" alt="" />
-                
               </div>
             </div>
           </div>
@@ -607,7 +686,9 @@
               осуществляет оптовую и розничную реализацию<br />
               нефтепродуктов производства Омского нефтеперерабатывающего завода.
             </h4>
-            <div class="portfolio_item_smm__zero__smm_flex1 portfolio_item_smm__zero__smm_flex1__div">
+            <div
+              class="portfolio_item_smm__zero__smm_flex1 portfolio_item_smm__zero__smm_flex1__div"
+            >
               <div>
                 <img src="img/components/element_one.png" alt="" />
                 <h6 class="first_element">Развлекательные</h6>

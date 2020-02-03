@@ -69,6 +69,10 @@
   max-width: 100%;
   margin: 0 auto;
 }
+.secondt_section__content__text_form {
+  max-width: 100%;
+  margin: 0 auto;
+}
 .six_section_container_s {
   width: 696px;
   height: auto;
@@ -78,7 +82,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   padding-bottom: 60px;
 }
 .six_section_container_s__text {
@@ -115,18 +119,38 @@
   color: #222222;
 }
 .secondt_section__content__text h3 {
-  color: #3d3d3d;
+  color: #fdfdfd;
   font-family: $MonstExtraB;
   font-size: 54px;
   font-weight: 400;
   word-wrap: break-word;
+}
+.secondt_section__content__text_form h3 {
+  color: #fdfdfd;
+  font-family: $MonstExtraB;
+  font-size: 54px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.secondt_section__content__text_form p {
+  opacity: 0.9;
+  width: 570px;
+  max-width: 100%;
+  height: auto;
+  color: #fdfdfd;
+  font-family: $HelLight;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  margin-top: 35px;
 }
 .secondt_section__content__text p {
   opacity: 0.9;
   width: 570px;
   max-width: 100%;
   height: auto;
-  color: #464646;
+  color: #fdfdfd;
   font-family: $HelLight;
   font-size: 15px;
   font-weight: 300;
@@ -148,27 +172,22 @@
   border: none;
   margin-top: 37px;
   cursor: pointer;
-  background:#4b43a2;
-  transition:all .5s ease;
+  transition: all 0.5s ease;
 }
-.secondt_section__content__text button:hover{
-  background:none;
-  border:1px solid #4b43a2;
-  color:#4b43a2;
-
+.secondt_section__content__text button:hover {
+  background: none;
+  border: 1px solid #4b43a2;
+  color: #4b43a2;
 }
-// .second_section_button {
-//   background-color: #fbb9ff;
-// }
-// .therst_section_button {
-//   background-color: #ffb8cd;
-// }
-// .four_section_button {
-//   background-color: #7dceb7;
-// }
-// .five_section_button {
-//   background-color: #fbc683;
-// }
+.second_section_button {
+  background-color: #ff3333;
+}
+.therst_section_button {
+  background-color: #3399cc;
+}
+.four_section_button {
+  background-color: #ff9900;
+}
 .first_section__svg {
   width: 1200px;
   max-width: 100%;
@@ -181,32 +200,33 @@
 
 .secondt_section__content__form {
   margin-top: 40px;
-}
-.secondt_section__content__form input {
-  display: block;
-  width: 773px;
-  height: 40px;
   max-width: 100%;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background: none;
-  color: rgba(70, 70, 70, 0.9);
-  font-family: $HelLight;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 31px;
-  letter-spacing: 0.1px;
-  margin-top: 25px;
 }
-.secondt_section__content__form input::placeholder {
-  color: rgba(70, 70, 70, 0.9);
-  font-family: $HelLight;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 31px;
-  letter-spacing: 0.1px;
-}
+// .secondt_section__content__form input {
+//   display: block;
+//   width: 773px;
+//   height: 40px;
+//   max-width: 100%;
+//   box-sizing: border-box;
+//   border: none;
+//   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+//   background: none;
+//   color: rgba(70, 70, 70, 0.9);
+//   font-family: $HelLight;
+//   font-size: 16px;
+//   font-weight: 300;
+//   line-height: 31px;
+//   letter-spacing: 0.1px;
+//   margin-top: 25px;
+// }
+// .secondt_section__content__form input::placeholder {
+//   color: rgba(70, 70, 70, 0.9);
+//   font-family: $HelLight;
+//   font-size: 16px;
+//   font-weight: 300;
+//   line-height: 31px;
+//   letter-spacing: 0.1px;
+// }
 .modal__windows {
   width: 100%;
   height: 100vh;
@@ -473,14 +493,13 @@
   width: 370px;
   height: 447px;
   max-width: 100%;
- 
 }
-.portfolio_item_smm__zero__smm_flex1__d div{
-  background: #0073BB;
-} 
-.portfolio_item_smm__zero__smm_flex1__div div{
+.portfolio_item_smm__zero__smm_flex1__d div {
+  background: #0073bb;
+}
+.portfolio_item_smm__zero__smm_flex1__div div {
   background: #26a792;
-} 
+}
 .portfolio_item_smm__zero__smm_flex1 div img {
   display: block;
   margin: 75px auto 0px auto;
@@ -545,15 +564,14 @@
   height: auto;
 }
 .heder_flex_voxing {
-
   font-size: 22px;
   line-height: 31px;
   font-family: $boldhel;
 }
-.heder_flex_voxing__color{
+.heder_flex_voxing__color {
   color: #0073bb;
 }
-.heder_flex_voxing__color_gr{
+.heder_flex_voxing__color_gr {
   color: #26a792;
 }
 .text_flex_bocing {
@@ -568,7 +586,260 @@
   padding-bottom: 60px;
   border-bottom: 1px solid #bcbcbc;
 }
+.brif__content {
+  color: #ffffff;
+  font-family: $boldhel;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31px;
+  /* Text style for "Тип продук" */
+  letter-spacing: 0.12px;
+}
+.form_controller{
+  position: relative;
+  z-index: 9999999;
+}
+.form_controller__brif {
+  width: 847px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form_controller__brif__item {
+  width: 271px;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #212121;
+  font-family: $HelLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  /* Text style for "Разработка" */
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.5s ease;
+}
+.form_controller__button {
+  width: 186px;
+  max-width: 100%;
+  height: 47px;
+  background-color: #3366cc;
+  border: none;
+  color: #e8e8e8;
+  font-family: $HelLight;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 31px;
+  /* Text style for "Отправить" */
+  letter-spacing: 0.1px;
+  margin-top: 44px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.form_controller__button:hover {
+  border: 1px solid #3366cc;
+  background: none;
+  color: #3366cc;
+}
+.selected {
+  transition: all 0.5s ease;
+  background: #3366cc;
+  color: #fff;
+}
+.taska_out {
+  margin-top: 36px;
+}
+.task_mainer {
+  width: 847px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.task_mainer__file {
+  width: 847px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.task_mainer_task {
+  width: 559px;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 17px;
+  padding-left: 30px;
+  color: #212121;
+  font-family: $HelLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  /* Text style for "Расскажите" */
+  letter-spacing: 0.1px;
+  box-sizing: border-box;
+}
+.name_former {
+  width: 415px;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  border: none;
+  margin-top: 17px;
+  padding-left: 30px;
+  color: #212121;
+  font-family: $HelLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: 0.1px;
+  box-sizing: border-box;
+}
+.name_former::placeholder {
+  opacity: 0.3;
+  color: #212121;
+}
+.task_mainer_task::placeholder {
+  opacity: 0.3;
+  color: #212121;
+}
+.task_mainer_task__file {
+  width: 271px;
+  max-width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  margin-top: 17px;
+  border: none;
+  position: relative;
+}
+#upload-file {
+  display: none;
+}
+.label_file {
+  width: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #66ccff;
+  font-family: $HelLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 31px;
+  text-decoration: underline;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.checkbox label::before {
+  content: "";
+  background: url("../img/icons/checkbox.png");
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+}
+
+.checkbox label::after {
+  content: "";
+  margin-top: -14px;
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.checkbox label {
+  position: relative;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+  position: absolute;
+}
+
+/*Внешний блок*/
+.checkbox label::before {
+  top: 15px;
+}
+
+/*Галка*/
+.checkbox label::after {
+  left: 10px;
+  top: 39px;
+}
+
+/*Прячем галку по умолчанию*/
+.checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+
+/*Показываем галку по состоянию checked*/
+.checkbox input[type="checkbox"]:checked + label::after {
+  content: url("../img/icons/gulka.png");
+}
+.mainer_for_checkbox {
+  width: 415px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.mainer_for_checkbox_pp {
+  align-self: center;
+  color: #ffffff;
+  font-family: $HelLight;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  /* Text style for "Я согласен" */
+  letter-spacing: 0.09px;
+  margin-right: 40px;
+}
+.secondt_section__content__text_fleinx {
+  display: flex;
+  align-items: center;
+  margin-top:18px;
+  
+}
+.outsider_div{
+  margin-top:45px;
+}
+.secondt_section__content__text_fleinx h6 a {
+  color: #ffffff;
+  font-family: $MonstLight;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 42.33px;
+  margin-left:18px;
+  text-decoration: none;
+  
+}
 // Media
 @include LowDesctop {
   .flex_smm_flexing {
@@ -614,6 +885,12 @@
   }
 }
 @include LowCaseDesk {
+  .secondt_section__content__form {
+    margin: 40px auto 0px auto;
+  }
+  .secondt_section__content__text_form {
+    display: none;
+  }
   .modal_windows__block__content {
     margin: 50px auto 0px auto;
   }
@@ -623,6 +900,42 @@
   .modal_windows__block {
     height: auto;
     padding-bottom: 40px;
+  }
+}
+@include IpadRevesing {
+  // .secondt_section__content__text_fleinx{
+  //   justify-content: center;
+  // }
+  .deleter_screener{
+    display: none;
+  }
+  .form_controller__button {
+    display: block;
+    margin: 20px auto 0px auto;
+  }
+  .brif__content {
+    text-align: center;
+  }
+
+  .form_controller__brif {
+    display: none;
+  }
+  .taska_out {
+    display: none;
+  }
+  .tip_producta{
+    display: none;
+  }
+  .task_mainer__file {
+    display: none;
+  }
+}
+@include IpadScreenSecret {
+  .mainer_for_checkbox_pp {
+    margin-top: 26px;
+  }
+  .task_mainer {
+    justify-content: center;
   }
 }
 @include IpadScreen {
@@ -690,6 +1003,13 @@
     font-size: 30px;
     text-align: center;
   }
+  .secondt_section__content__text_form h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .secondt_section__content__text_form {
+    margin: 0 auto;
+  }
   .modal_windows__block__content_right__heading {
     font-size: 30px;
     text-align: center;
@@ -702,6 +1022,11 @@
     font-size: 30px;
     text-align: center;
   }
+  .secondt_section__content__text_form p {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
   .secondt_section__content__text p {
     font-size: 15px;
     margin-top: 20px;
@@ -712,34 +1037,42 @@
     margin: 20px auto 0px auto;
   }
 }
-@include DesctopScreen{
-  .secondt_section__content__text button{
-    width:130px;
-    height:37px;
-    max-width:100%;
-    font-size:13px;
+@include DesctopScreen {
+  .taska_out {
+    display: none;
   }
-  .secondt_section__content__text h3{
-    font-size:40px
+  .task_mainer__file {
+    display: none;
   }
-  #lottie{
-    width:auto;
-    height:auto;
+  .secondt_section__content__text button {
+    width: 130px;
+    height: 37px;
+    max-width: 100%;
+    font-size: 13px;
   }
-  .sizing_testtask{
-    width:500px;
-    height:auto;
+  .secondt_section__content__text_form h3 {
+    font-size: 40px;
   }
-  .six_section_container_s__text{
-    font-size:40px;
+  .secondt_section__content__text h3 {
+    font-size: 40px;
   }
-  .six_section_container_s__list__flex p{
-    font-size:20px;
+  #lottie {
+    width: auto;
+    height: auto;
+  }
+  .sizing_testtask {
+    width: 500px;
+    height: auto;
+  }
+  .six_section_container_s__text {
+    font-size: 40px;
+  }
+  .six_section_container_s__list__flex p {
+    font-size: 20px;
   }
 }
 
 @include lowIpad {
-
   .modal_windows__block__content_right__list_main {
     flex-direction: column;
   }
@@ -757,6 +1090,21 @@
   }
 }
 @include PhoneScreen {
+  .secondt_section__content__text_fleinx h6 a {
+    font-size:16px;
+    line-height: 20px;
+  }
+  .name_former {
+    height: 40px;
+  }
+  .form_controller__button {
+    height: 37px;
+    width: 160px;
+    font-size: 14px;
+  }
+  .mainer_for_checkbox {
+    display: none;
+  }
   .six_section_container_s__text {
     margin-top: 30px;
   }
@@ -816,6 +1164,15 @@
     font-size: 13px;
     text-align: center;
   }
+  .secondt_section__content__text_form h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .secondt_section__content__text_form p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+  }
   .secondt_section__content__text h3 {
     font-size: 25px;
     text-align: center;
@@ -845,18 +1202,32 @@
     font-size: 14px;
   }
 
-  .secondt_section__content__form input {
-    height: 30px;
-    margin-top: 20px;
-  }
-  .secondt_section__content__form {
-    margin-top: 10px;
-  }
+  // .secondt_section__content__form input {
+  //   height: 30px;
+  //   margin-top: 20px;
+  // }
+  // .secondt_section__content__form {
+  //   margin-top: 10px;
+  // }
 }
 @include HeightScreen {
-  #lottie{
-    width:auto;
-    height:auto;
+  .name_former {
+    height: 40px;
+  }
+  .form_controller__button {
+    height: 37px;
+    width: 160px;
+    font-size: 14px;
+  }
+  .mainer_for_checkbox {
+    display: none;
+  }
+  input[type="tel"] {
+    display: none;
+  }
+  #lottie {
+    width: auto;
+    height: auto;
   }
   .six_section_container_s__text {
     margin-top: 30px;
@@ -886,17 +1257,18 @@
   .modal__windows_heading {
     height: 90px;
   }
-  .secondt_section__content__form input:nth-child(3) {
-    display: none;
-  }
-  .secondt_section__content__form input:nth-child(4) {
-    display: none;
-  }
-  .secondt_section__content__form input {
-    height: 30px;
-    margin-top: 20px;
-  }
+  // .secondt_section__content__form input:nth-child(3) {
+  //   display: none;
+  // }
+  // .secondt_section__content__form input:nth-child(4) {
+  //   display: none;
+  // }
+  // .secondt_section__content__form input {
+  //   height: 30px;
+  //   margin-top: 20px;
+  // }
   .secondt_section__content__form {
+    max-width: 100%;
     margin-top: 10px;
   }
 }

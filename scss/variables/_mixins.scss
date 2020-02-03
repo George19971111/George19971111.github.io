@@ -13,6 +13,16 @@
     @content;
   }
 }
+@mixin IpadRevesing{
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin IpadScreenSecret {
+  @media screen and (max-width: 930px) {
+    @content;
+  }
+}
 @mixin IpadScreen {
   @media screen and (max-width: 815px) {
     @content;
@@ -29,7 +39,7 @@
   }
 }
 @mixin HeightScreen{
-  @media screen and(max-height:420px){
+  @media screen and(max-height:480px){
     @content;
   }
 }
