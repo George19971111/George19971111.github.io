@@ -1,134 +1,294 @@
-
+// Outer_container_header_start
 .header_container {
-  width:95%;
+  width: 100%;
   max-width: 100%;
-  height: 160px;
+  height: 100vh;
+  background: #111;
+  position: relative;
+}
+.header_container__navbar {
+  width: 1440px;
+  max-width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+.header_container__navbar_scroll {
+  width: 1440px;
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+.header_container_content {
+  display: flex;
+  width: 100%;
+  top: 0;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.header_container_content_scroll {
+  display: flex;
+  width: 100%;
   position: fixed;
   left: 0;
   right: 0;
+  top: 0;
   margin: 0 auto;
-  z-index: 999;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.myMenu_sectiontype {
-  width: 320px;
-  max-width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.myMenu_sectiontype li a {
-  text-decoration: none;
-  font-family: $MonstLight;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 300;
+  background-color: #111;
+  z-index: 99999;
   transition: all 0.5s ease;
-  padding: 10px 28px;
 }
-.myMenu_sectiontype li:last-child a {
-  // border-radius: 25px;
-  // border: 1px solid #fff;
-}
-// .myMenu_sectiontype li.active a {
-//   border-radius: 25px;
-//   border: 1px solid #151515;
-// }
-.header_container__logo a {
-  color: #353535;
-  font-family: $MonstExtraB;
-  font-size: 72px;
-  font-weight: 400;
+// Logotype_start
+.logotype_container a {
+  color: #fff;
+  font-family: $LatoBold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
   text-decoration: none;
+  transition:all .5s ease;
+  word-wrap: break-word;
 }
-// Media Request
-@include LowDesctop {
-  .header_container {
-    width: 95%;
+.logotype_container a:hover{
+  color:#fcac45;
+}
+// Logotype_end
+
+// header_navigation_menu_start
+.navigation__menu {
+  display: flex;
+  max-width: 100%;
+  width: 650px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 40px;
+  align-items: flex-end;
+}
+.navigation__menu li {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+.navigation__menu li:hover {
+  border-bottom: 2px solid #fcac45;
+  transition: all 0.5s ease;
+}
+.navigation__menu li a {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-family: $LatoBold;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  // border-bottom:2px solid red;
+  padding-bottom: 4px;
+}
+
+// header_navigation_menu_end
+
+// heading
+.heading_containermain {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header_container__mainheading {
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999999;
+  font-family: $OpenSansl;
+  font-size: 44px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.header_container__mainheading span {
+  font-family: $OpenSansl;
+  font-weight: 700;
+  color: #fcac45;
+}
+.header_container__secondheading {
+  word-wrap: break-word;
+  text-align: center;
+  color: #ffffff;
+  font-family: $OpenSansl;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.header_container__secondheading span {
+  font-weight: 700;
+}
+.header_container__img_arrow_button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+  animation: arrowchange 3s 0.1s infinite;
+}
+@keyframes arrowchange {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.burger_menu {
+  display: none;
+  cursor: pointer;
+}
+.burger_menu_item {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  z-index: 99999;
+  background: #111;
+  // transition: all 0.5s ease;
+  display: none;
+}
+.disabled {
+  display: none;
+}
+.burger_menu_item__closeicon {
+  height: 90px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+}
+.burger_menu_item__closeicon img {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+.burger_menu_item__navigation {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.burger_menu_item__navigation_itemlist {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-between;
+}
+.burger_menu_item__navigation_itemlist li {
+  width: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.burger_menu_item__navigation_itemlist li:hover {
+  border-bottom: 2px solid #fcac45;
+  transition: all 0.5s ease;
+}
+
+.burger_menu_item__navigation_itemlist li a {
+  font-family: $LatoBold;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+}
+// heading
+
+// Outer_container_header_end
+
+// Media request
+@include lowDesktop {
+  .header_container__navbar_scroll {
+    width: 80%;
     max-width: 100%;
   }
-  .myMenu_sectiontype li a {
-    font-size: 16px;
-    padding: 10px 15px;
+  .header_container__navbar {
+    width: 80%;
+    max-width: 100%;
   }
-  .myMenu_sectiontype {
-    width: 280px;
-    margin-top: 5px;
-  }
-  .header_container__logo a {
-    font-size: 60px;
-  }
-}
-@include DesctopScreen{
-  .myMenu_sectiontype li a{
-    font-size:13px;
-  }
-  .myMenu_sectiontype{
-    width: 230px;
-    max-width:100%;
-  }
-  .header_container__logo svg{
-    width:100px;
-    height:auto;
+  .navigation__menu {
+    width: 500px;
+    max-width: 100%;
   }
 }
 @include IpadScreen {
-  .header_container__logo svg{
-    width: 100px;
-    max-width: 100%;
+  .header_container__navbar_scroll {
+    height: 70px;
   }
-}
-
-@include lowIpad {
-  .header_container__logo {
+  .navigation__menu li a {
+    font-size: 12px;
+  }
+  .header_container__navbar_scroll {
+    width: 100%;
+  }
+  .header_container__navbar {
+    width: 100%;
+  }
+  .logotype_container {
     display: none;
   }
-  .myMenu_sectiontype {
+  .navigation__menu {
+    width: 85%;
     margin: 0 auto;
   }
 }
-@include PhoneScreen {
-  .header_container__logo{
-    display: block;
+@include Phone_screen {
+  .header_container__mainheading {
+    font-size: 30px;
+    line-height: 35px;
   }
-  .header_container__logo svg{
-    width: 70px;
+  .header_container__secondheading {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .navigation__menu {
+    display: none;
+  }
+  .header_container__navbar_scroll {
+    width: 90%;
     max-width: 100%;
   }
-  .myMenu_sectiontype li a {
-    font-size: 13px;
-    padding: 5px 5px;
-  }
-  .myMenu_sectiontype {
-    margin: 0;
-    width: 186px;
-  }
-  .header_container {
+  .header_container__navbar {
     height: 90px;
+    width: 90%;
+    max-width: 100%;
+  }
+  .burger_menu {
+    display: block;
+    margin-left: auto;
+  }
+  .logotype_container {
+    display: block;
   }
 }
-@include HeightScreen {
-  .header_container__logo{
-    display: block;
-  }
-  .header_container__logo svg{
-    width: 70px;
-    max-width: 100%;
-  }
-  .myMenu_sectiontype li a {
-    font-size: 13px;
-    padding: 5px 5px;
-  }
-  .myMenu_sectiontype {
-    margin: 0;
-    width: 186px;
-  }
-  .header_container {
-    height: 90px;
+@include Phone_screenHight {
+  .header_container__img_arrow_button {
+    display: none;
   }
 }

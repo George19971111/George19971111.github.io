@@ -1,56 +1,48 @@
+// Lato-Bold
 @font-face {
-  font-family: "Montserrat-Light";
-  src: local("Montserrat-Light"),
-    url("../fonts/Montserrat-Light.woff2") format("woff2"),
-    url("../fonts/Montserrat-Light.woff") format("woff"),
-    url("../fonts/Montserrat-Light.ttf") format("truetype"),
-    url("../fonts/Montserrat-Light.eot") format("eot");
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"), url("../fonts/Lato-Bold.woff2") format("woff2"),
+    url("../fonts/Lato-Bold.woff") format("woff"),
+    url("../fonts/Lato-Bold.ttf") format("truetype"),
+    url("../fonts/Lato-Bold.eot") format("eot");
   font-display: swap;
 }
 
+// OpenSans-Light
 @font-face {
-  font-family: "Montserrat-ExtraBold";
-  src: local("Montserrat-ExtraBold"),
-    url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-    url("../fonts/Montserrat-ExtraBold.woff") format("woff"),
-    url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"),
-    url("../fonts/Montserrat-ExtraBold.eot") format("eot");
+  font-family: "OpenSans-Light";
+  src: local("OpenSans-Light"),
+    url("../fonts/OpenSans-Light.woff") format("woff"),
+    url("../fonts/OpenSans-Light.ttf") format("truetype"),
+    url("../fonts/OpenSans-Light.eot") format("eot");
   font-display: swap;
 }
 
+// OpenSans-Regular
 @font-face {
-  font-family: "HelveticaNeueCyr-Light";
-  src: local("HelveticaNeueCyr-Light"),
-    url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
-    url("../fonts/HelveticaNeueCyr-Light.woff") format("woff"),
-    url("../fonts/HelveticaNeueCyr-Light.ttf") format("truetype"),
-    url("../fonts/HelveticaNeueCyr-Light.eot") format("eot");
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype"),
+    url("../fonts/OpenSans-Regular.eot") format("eot");
   font-display: swap;
 }
+
+// OpenSans-SemiBold
 @font-face {
-  font-family: "HelveticaNeueCyr-Bold";
-  src: local("HelveticaNeueCyr-Bold"),
-    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
-    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"),
-    url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype"),
-    url("../fonts/HelveticaNeueCyr-Bold.eot") format("eot");
+  font-family: "OpenSans-SemiBold";
+  src: local("OpenSans-SemiBold"),
+    url("../fonts/OpenSans-SemiBold.woff") format("woff"),
+    url("../fonts/OpenSans-SemiBold.ttf") format("truetype"),
+    url("../fonts/OpenSans-SemiBold.eot") format("eot");
   font-display: swap;
 }
+// OpenSans-ExtraBold
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: local("Montserrat-Bold"),
-    url("../fonts/Montserrat-Bold.woff2") format("woff2"),
-    url("../fonts/Montserrat-Bold.woff") format("woff"),
-    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
-    url("../fonts/Montserrat-Bold.eot") format("eot");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat-SemiBold";
-  src: local("Montserrat-SemiBold"),
-    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-    url("../fonts/Montserrat-SemiBold.woff") format("woff"),
-    url("../fonts/Montserrat-SemiBold.ttf") format("truetype"),
-    url("../fonts/Montserrat-SemiBold.eot") format("eot");
+  font-family: "OpenSans-ExtraBold";
+  src: local("OpenSans-ExtraBold"),
+    url("../fonts/OpenSans-ExtraBold.woff") format("woff"),
+    url("../fonts/OpenSans-ExtraBold.ttf") format("truetype"),
+    url("../fonts/OpenSans-ExtraBold.eot") format("eot");
   font-display: swap;
 }
