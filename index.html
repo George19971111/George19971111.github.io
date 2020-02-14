@@ -183,6 +183,7 @@
                 <div>
                   <input
                     type="text"
+                    name="task"
                     placeholder="Расскажите о своей задаче"
                     class="task_mainer_task"
                   />
@@ -191,17 +192,17 @@
                   <label class="label_file" for="upload-file"
                     >Прикрепить файл <img src="img/icons/skrepka.png" alt=""
                   /></label>
-                  <input type="file" id="upload-file" />
+                  <input type="file" name="file" id="upload-file" />
                 </div>
               </div>
               <p class="brif__content taska_out1">Контакты</p>
               <div class="task_mainer">
-                <input type="text" class="name_former" placeholder="Имя" />
-                <input type="email" class="name_former" placeholder="e-mail" />
-                <input type="tel" class="name_former" placeholder="Телефон" />
+                <input id="name" type="text"  name="name" class="name_former defaul_form" placeholder="Имя" />
+                <input id="email" type="email"  name="email" class="name_former defaul_form" placeholder="e-mail" />
+                <input id="tel" type="tel"  name="tel" class="name_former defaul_form" placeholder="Телефон" />
                 <div class="mainer_for_checkbox">
                   <div class="checkbox">
-                    <input type="checkbox" checked id="checkbox_1" />
+                    <input name="suggest" type="checkbox" id="checkbox_1" />
                     <label for="checkbox_1"></label>
                   </div>
                   <p class="mainer_for_checkbox_pp">

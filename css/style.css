@@ -113,7 +113,7 @@ input, input:active, input:focus { outline: none; }
 
 .therst_section_button { background-color: #3399cc; }
 
-.four_section_button { background-color: #ff9900; }
+.four_section_button { background-color: #ff6600; }
 
 .first_section__svg { width: 1200px; max-width: 100%; height: auto; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
@@ -259,17 +259,7 @@ input, input:active, input:focus { outline: none; }
 
 .task_mainer_task { width: 559px; max-width: 100%; height: 70px; background-color: #ffffff; border: none; margin-top: 17px; padding-left: 30px; color: #212121; font-family: "HelveticaNeueCyr-Light"; font-size: 16px; font-weight: 300; line-height: 31px; /* Text style for "Расскажите" */ letter-spacing: 0.1px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.name_former { width: 415px; max-width: 100%; height: 70px; background-color: #ffffff; border: none; margin-top: 17px; padding-left: 30px; color: #212121; font-family: "HelveticaNeueCyr-Light"; font-size: 16px; font-weight: 300; line-height: 31px; letter-spacing: 0.1px; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-.name_former::-webkit-input-placeholder { opacity: 0.3; color: #212121; }
-
-.name_former::-moz-placeholder { opacity: 0.3; color: #212121; }
-
-.name_former:-ms-input-placeholder { opacity: 0.3; color: #212121; }
-
-.name_former::-ms-input-placeholder { opacity: 0.3; color: #212121; }
-
-.name_former::placeholder { opacity: 0.3; color: #212121; }
+.name_former { width: 415px; max-width: 100%; height: 70px; background-color: #ffffff; margin-top: 17px; padding-left: 30px; color: #212121; font-family: "HelveticaNeueCyr-Light"; font-size: 16px; font-weight: 300; line-height: 31px; letter-spacing: 0.1px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .task_mainer_task::-webkit-input-placeholder { opacity: 0.3; color: #212121; }
 
@@ -320,6 +310,32 @@ input, input:active, input:focus { outline: none; }
 .outsider_div { margin-top: 45px; }
 
 .secondt_section__content__text_fleinx h6 a { color: #ffffff; font-family: "Montserrat-Light"; font-size: 21px; font-weight: 300; line-height: 42.33px; margin-left: 18px; text-decoration: none; }
+
+.success_form { border: 1px solid lime; }
+
+.error_form { border: 1px solid tomato; }
+
+.error_form::-webkit-input-placeholder { color: tomato; }
+
+.error_form::-moz-placeholder { color: tomato; }
+
+.error_form:-ms-input-placeholder { color: tomato; }
+
+.error_form::-ms-input-placeholder { color: tomato; }
+
+.error_form::placeholder { color: tomato; }
+
+.defaul_form { border: none; }
+
+.defaul_form::-webkit-input-placeholder { opacity: 0.3; color: #212121; }
+
+.defaul_form::-moz-placeholder { opacity: 0.3; color: #212121; }
+
+.defaul_form:-ms-input-placeholder { opacity: 0.3; color: #212121; }
+
+.defaul_form::-ms-input-placeholder { opacity: 0.3; color: #212121; }
+
+.defaul_form::placeholder { opacity: 0.3; color: #212121; }
 
 @media screen and (max-width: 1650px) { .flex_smm_flexing { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
   .flex_smm_flexing div { margin-top: 40px; }

@@ -1,4 +1,5 @@
 // Main
+
 .first_section {
   width: 100%;
   height: 100%;
@@ -186,7 +187,7 @@
   background-color: #3399cc;
 }
 .four_section_button {
-  background-color: #ff9900;
+  background-color: #ff6600;
 }
 .first_section__svg {
   width: 1200px;
@@ -696,7 +697,6 @@
   max-width: 100%;
   height: 70px;
   background-color: #ffffff;
-  border: none;
   margin-top: 17px;
   padding-left: 30px;
   color: #212121;
@@ -707,10 +707,10 @@
   letter-spacing: 0.1px;
   box-sizing: border-box;
 }
-.name_former::placeholder {
-  opacity: 0.3;
-  color: #212121;
-}
+// .name_former::placeholder {
+//   opacity: 0.3;
+//   color: #212121;
+// }
 .task_mainer_task::placeholder {
   opacity: 0.3;
   color: #212121;
@@ -849,6 +849,22 @@
 // 	opacity: 1;
 // 	transition: opacity 900ms;
 // }
+.success_form {
+  border: 1px solid lime;
+}
+.error_form {
+  border: 1px solid tomato;
+}
+.error_form::placeholder{
+  color:tomato;
+}
+.defaul_form {
+  border: none;
+}
+.defaul_form::placeholder{
+  opacity: 0.3;
+  color: #212121;
+}
 
 // Media
 @include LowDesctop {
@@ -1051,103 +1067,101 @@
   }
 }
 @include DesctopScreen {
-  .portfolio_item_smm__zero_gr{
+  .portfolio_item_smm__zero_gr {
     margin: 40px auto 0px auto;
   }
-  .portfolio_item_smm__zero_gr{
+  .portfolio_item_smm__zero_gr {
     height: 300px;
-
   }
-  .flex_smm_flexing{
-    margin-top:10px;
-    margin-bottom:5px
+  .flex_smm_flexing {
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
-  .heder_flex_voxing{
-    font-size:18px;
+  .heder_flex_voxing {
+    font-size: 18px;
     line-height: 25px;
   }
-  .text_flex_bocing{
-    font-size:16px;
+  .text_flex_bocing {
+    font-size: 16px;
     line-height: 18px;
   }
-  .flex_smm_flexing div{
+  .flex_smm_flexing div {
     width: 200px;
     max-width: 100%;
   }
-  .portfolio_item_smm__zero__smm_flex1 div h6{
-    font-size:16px;
+  .portfolio_item_smm__zero__smm_flex1 div h6 {
+    font-size: 16px;
   }
-  .portfolio_item_smm__zero__smm_flex1 div p{
-    font-size:14px;
-    margin-top:15px;
+  .portfolio_item_smm__zero__smm_flex1 div p {
+    font-size: 14px;
+    margin-top: 15px;
     line-height: 18px;
   }
   .portfolio_item_smm__zero__smm_flex1 div {
-    width:270px;
+    width: 270px;
     max-width: 100%;
     height: 360px;
   }
-  .portfolio_item_smm__zero__smm_flex1 div img{
- 
-    margin:30px auto 0px auto;
+  .portfolio_item_smm__zero__smm_flex1 div img {
+    margin: 30px auto 0px auto;
   }
-  .portfolio_item_smm__zero__smm_flex1{
-    margin-top:10px;
+  .portfolio_item_smm__zero__smm_flex1 {
+    margin-top: 10px;
   }
-  .portfolio_item_smm__zero__smm_flex{
-    margin-top:10px;
+  .portfolio_item_smm__zero__smm_flex {
+    margin-top: 10px;
   }
-  .portfolio_item_smm__zero__smm_flex div img{
-    width:320px;
+  .portfolio_item_smm__zero__smm_flex div img {
+    width: 320px;
     height: 300px;
     max-width: 100%;
   }
-  .portfolio_item_smm__zero__smm h4{
-    font-size:14px;
+  .portfolio_item_smm__zero__smm h4 {
+    font-size: 14px;
   }
-  .portfolio_item_smm__zero__smm{
+  .portfolio_item_smm__zero__smm {
     margin: 57px auto 0px auto;
   }
-  .portfolio_item_smm__zero__smm h6{
-    font-size:30px;
+  .portfolio_item_smm__zero__smm h6 {
+    font-size: 30px;
   }
-  .portfolio_item_smm__zero{
-    margin:40px auto 0px auto;
+  .portfolio_item_smm__zero {
+    margin: 40px auto 0px auto;
     height: 300px;
   }
-  .portfolio_item_smm__toper h4{
-    font-size:14px;
+  .portfolio_item_smm__toper h4 {
+    font-size: 14px;
   }
-  .portfolio_item_smm__toper h2{
-    font-size:30px;
+  .portfolio_item_smm__toper h2 {
+    font-size: 30px;
   }
-  .portfolio_item_smm{
-    margin-top:60px;
+  .portfolio_item_smm {
+    margin-top: 60px;
   }
-  .modal_windows__block__content{
-    padding-bottom:50px;
+  .modal_windows__block__content {
+    padding-bottom: 50px;
   }
-  .modal_windows__block__content{
-    margin:25px auto 0px auto;
+  .modal_windows__block__content {
+    margin: 25px auto 0px auto;
   }
-  .modal_windows__block__content_button{
-    margin-top:20px;
-    width:130px;
-    height:37px;
+  .modal_windows__block__content_button {
+    margin-top: 20px;
+    width: 130px;
+    height: 37px;
     max-width: 100%;
-    font-size:14px;
+    font-size: 14px;
   }
-  .modal_windows__block__content_right__list{
-    margin-top:20px;
+  .modal_windows__block__content_right__list {
+    margin-top: 20px;
   }
-  .modal_windows__block__content_right__text{
-    font-size:14px;
+  .modal_windows__block__content_right__text {
+    font-size: 14px;
   }
-  .modal_windows__block__content_right__list li{
-    font-size:12px;
+  .modal_windows__block__content_right__list li {
+    font-size: 12px;
   }
-  .modal_windows__block__content_right{
-    width:500px;
+  .modal_windows__block__content_right {
+    width: 500px;
     max-width: 100%;
   }
   .modal_windows__block__content_right__text {
@@ -1162,7 +1176,7 @@
     max-width: 100%;
     display: flex;
   }
-  .modal_windows__block__content_left img{
+  .modal_windows__block__content_left img {
     align-self: center;
   }
   .checkbox label::before {
@@ -1248,8 +1262,8 @@
   }
 }
 @include PhoneScreen {
-  #lottie{
-    width:90%;
+  #lottie {
+    width: 90%;
     max-width: 100%;
   }
   .secondt_section__content__text_fleinx h6 a {
