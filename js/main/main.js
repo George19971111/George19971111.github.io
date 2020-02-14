@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
+  particlesJS.load('particles-js', 'particles.json', function() {
+  
+  });
   new WOW({
     mobile:false,
   }).init();
@@ -9,10 +12,10 @@ $("#slick_one").slick({
   arrows: false,
   dots: true
 });
-// $("#slick_two").slick({
-//   arrows: false,
-//   dots: true
-// });
+$("#slick_two").slick({
+  arrows: false,
+  dots: true
+});
 $("#slick_three").slick({
   arrows: false,
   dots: true
