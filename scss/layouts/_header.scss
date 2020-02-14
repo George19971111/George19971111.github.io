@@ -1,0 +1,134 @@
+
+.header_container {
+  width:95%;
+  max-width: 100%;
+  height: 160px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.myMenu_sectiontype {
+  width: 320px;
+  max-width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.myMenu_sectiontype li a {
+  text-decoration: none;
+  font-family: $MonstLight;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 300;
+  transition: all 0.5s ease;
+  padding: 10px 28px;
+}
+.myMenu_sectiontype li:last-child a {
+  // border-radius: 25px;
+  // border: 1px solid #fff;
+}
+// .myMenu_sectiontype li.active a {
+//   border-radius: 25px;
+//   border: 1px solid #151515;
+// }
+.header_container__logo a {
+  color: #353535;
+  font-family: $MonstExtraB;
+  font-size: 72px;
+  font-weight: 400;
+  text-decoration: none;
+}
+// Media Request
+@include LowDesctop {
+  .header_container {
+    width: 95%;
+    max-width: 100%;
+  }
+  .myMenu_sectiontype li a {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .myMenu_sectiontype {
+    width: 280px;
+    margin-top: 5px;
+  }
+  .header_container__logo a {
+    font-size: 60px;
+  }
+}
+@include DesctopScreen{
+  .myMenu_sectiontype li a{
+    font-size:13px;
+  }
+  .myMenu_sectiontype{
+    width: 230px;
+    max-width:100%;
+  }
+  .header_container__logo svg{
+    width:100px;
+    height:auto;
+  }
+}
+@include IpadScreen {
+  .header_container__logo svg{
+    width: 100px;
+    max-width: 100%;
+  }
+}
+
+@include lowIpad {
+  .header_container__logo {
+    display: none;
+  }
+  .myMenu_sectiontype {
+    margin: 0 auto;
+  }
+}
+@include PhoneScreen {
+  .header_container__logo{
+    display: block;
+  }
+  .header_container__logo svg{
+    width: 70px;
+    max-width: 100%;
+  }
+  .myMenu_sectiontype li a {
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+  .myMenu_sectiontype {
+    margin: 0;
+    width: 186px;
+  }
+  .header_container {
+    height: 90px;
+  }
+}
+@include HeightScreen {
+  .header_container__logo{
+    display: block;
+  }
+  .header_container__logo svg{
+    width: 70px;
+    max-width: 100%;
+  }
+  .myMenu_sectiontype li a {
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+  .myMenu_sectiontype {
+    margin: 0;
+    width: 186px;
+  }
+  .header_container {
+    height: 90px;
+  }
+}
