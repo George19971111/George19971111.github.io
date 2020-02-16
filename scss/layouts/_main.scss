@@ -316,7 +316,7 @@
   width: 179px;
   max-width: 100%;
   height: 47px;
-  background-color: #f1b6c8;
+  // background-color: #f1b6c8;
   font-family: $HelLight;
   font-size: 17px;
   font-weight: 400;
@@ -328,7 +328,9 @@
   margin-top: 50px;
   cursor: pointer;
   transition: all 0.5s ease;
-  border-radius: 40px;
+}
+.moda_web_button {
+  background-color: #ff3333;
 }
 .modal_windows__block__content_button:hover {
   border: 1px solid #f1b6c8;
@@ -425,6 +427,15 @@
   max-width: 100%;
   margin: 71px auto 0px auto;
   background: #0073bb;
+  display: flex;
+  align-items: center;
+}
+.portfolio_item_smm__zero__freestyle {
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+  margin: 71px auto 0px auto;
+  background: #f7f7f7;
   display: flex;
   align-items: center;
 }
@@ -585,6 +596,10 @@
 }
 .bottom_pag {
   padding-bottom: 60px;
+  border-bottom: 1px solid #bcbcbc;
+}
+.bottom_pag_webb {
+  padding-bottom: 20px;
   border-bottom: 1px solid #bcbcbc;
 }
 .brif__content {
@@ -855,17 +870,46 @@
 .error_form {
   border: 1px solid tomato;
 }
-.error_form::placeholder{
-  color:tomato;
+.error_form::placeholder {
+  color: tomato;
 }
 .defaul_form {
   border: none;
 }
-.defaul_form::placeholder{
+.defaul_form::placeholder {
   opacity: 0.3;
   color: #212121;
 }
-
+.kek12_pertol_p {
+  color: #464646;
+  font-size: 110px;
+  font-family: $boldhel;
+  word-wrap: break-word;
+}
+.portfolio_item_smm__zero_itemflex {
+  width: 100%;
+  margin: 100px auto 0px auto;
+  max-width: 100%;
+}
+.portfolio_item_smm__zero_itemflex img {
+  width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.fsstudio__link_fs {
+  width: 1558px;
+  max-width: 100%;
+  margin: 70px auto 0px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.fsstudio__link_fs a {
+  font-family: $MonstExtraB;
+  font-size: 36px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
 // Media
 @include LowDesctop {
   .flex_smm_flexing {
@@ -892,6 +936,7 @@
   }
   .kek12 {
     align-self: center;
+    max-width: 100%;
   }
   .portfolio_item_smm {
     width: 90%;
@@ -960,6 +1005,16 @@
   }
 }
 @include IpadScreenSecret {
+  .fsstudio__link_fs a{
+    font-size:25px;
+  }
+  .fsstudio__link_fs{
+    justify-content: center;
+    margin:30px auto 0px auto;
+  }
+  .kek12_pertol_p {
+    font-size: 70px;
+  }
   .mainer_for_checkbox_pp {
     margin-top: 26px;
   }
@@ -1262,6 +1317,9 @@
   }
 }
 @include PhoneScreen {
+  .kek12_pertol_p {
+    font-size: 40px;
+  }
   #lottie {
     width: 90%;
     max-width: 100%;

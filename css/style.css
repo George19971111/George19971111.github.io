@@ -141,7 +141,9 @@ input, input:active, input:focus { outline: none; }
 
 .modal_windows__block__content_right__list_main { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 
-.modal_windows__block__content_button { width: 179px; max-width: 100%; height: 47px; background-color: #f1b6c8; font-family: "HelveticaNeueCyr-Light"; font-size: 17px; font-weight: 400; line-height: 25px; font-variant: small-caps; letter-spacing: 0.26px; color: #fff; border: none; margin-top: 50px; cursor: pointer; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; border-radius: 40px; }
+.modal_windows__block__content_button { width: 179px; max-width: 100%; height: 47px; font-family: "HelveticaNeueCyr-Light"; font-size: 17px; font-weight: 400; line-height: 25px; font-variant: small-caps; letter-spacing: 0.26px; color: #fff; border: none; margin-top: 50px; cursor: pointer; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+
+.moda_web_button { background-color: #ff3333; }
 
 .modal_windows__block__content_button:hover { border: 1px solid #f1b6c8; color: #f1b6c8; background: none; }
 
@@ -176,6 +178,8 @@ input, input:active, input:focus { outline: none; }
 .portfolio_item_smm__zero__smm h4 { font-family: "HelveticaNeueCyr-Light"; font-size: 16px; line-height: 31px; color: #464646; margin-top: 35px; word-wrap: break-word; }
 
 .portfolio_item_smm__zero { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #0073bb; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+.portfolio_item_smm__zero__freestyle { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #f7f7f7; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 .portfolio_item_smm__zero_gr { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #26a792; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -234,6 +238,8 @@ input, input:active, input:focus { outline: none; }
 .text_flex_bocing { color: #464646; font-size: 22px; line-height: 31px; font-family: "HelveticaNeueCyr-Light"; margin-top: 15px; word-wrap: break-word; }
 
 .bottom_pag { padding-bottom: 60px; border-bottom: 1px solid #bcbcbc; }
+
+.bottom_pag_webb { padding-bottom: 20px; border-bottom: 1px solid #bcbcbc; }
 
 .brif__content { color: #ffffff; font-family: "HelveticaNeueCyr-Bold"; font-size: 20px; font-weight: 700; line-height: 31px; /* Text style for "Тип продук" */ letter-spacing: 0.12px; }
 
@@ -337,6 +343,16 @@ input, input:active, input:focus { outline: none; }
 
 .defaul_form::placeholder { opacity: 0.3; color: #212121; }
 
+.kek12_pertol_p { color: #464646; font-size: 110px; font-family: "HelveticaNeueCyr-Bold"; word-wrap: break-word; }
+
+.portfolio_item_smm__zero_itemflex { width: 100%; margin: 100px auto 0px auto; max-width: 100%; }
+
+.portfolio_item_smm__zero_itemflex img { width: 100%; display: block; height: auto; max-width: 100%; }
+
+.fsstudio__link_fs { width: 1558px; max-width: 100%; margin: 70px auto 0px auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.fsstudio__link_fs a { font-family: "Montserrat-ExtraBold"; font-size: 36px; color: #3d3d3d; text-decoration: none; }
+
 @media screen and (max-width: 1650px) { .flex_smm_flexing { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
   .flex_smm_flexing div { margin-top: 40px; }
   .portfolio_item_smm__zero__smm_flex { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
@@ -344,7 +360,7 @@ input, input:active, input:focus { outline: none; }
   .portfolio_item_smm__zero__smm_flex1 { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
   .portfolio_item_smm__zero__smm_flex1 div { margin-top: 40px; }
   .portfolio_item_smm__zero_re { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
-  .kek12 { -webkit-align-self: center; -ms-flex-item-align: center; align-self: center; }
+  .kek12 { -webkit-align-self: center; -ms-flex-item-align: center; align-self: center; max-width: 100%; }
   .portfolio_item_smm { width: 90%; max-width: 100%; }
   .modal__windows__content_smm { width: 90%; max-width: 100%; }
   .modal_windows__block__content { width: 90%; max-width: 100%; }
@@ -365,7 +381,10 @@ input, input:active, input:focus { outline: none; }
   .tip_producta { display: none; }
   .task_mainer__file { display: none; } }
 
-@media screen and (max-width: 930px) { .mainer_for_checkbox_pp { margin-top: 26px; }
+@media screen and (max-width: 930px) { .fsstudio__link_fs a { font-size: 25px; }
+  .fsstudio__link_fs { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin: 30px auto 0px auto; }
+  .kek12_pertol_p { font-size: 70px; }
+  .mainer_for_checkbox_pp { margin-top: 26px; }
   .task_mainer { -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; } }
 
 @media screen and (max-width: 815px) { .six_section_container_s { width: 500px; }
@@ -453,7 +472,8 @@ input, input:active, input:focus { outline: none; }
   .portfolio_item_smm__zero__smm h4 { text-align: center; }
   .text_flex_bocing { text-align: center; } }
 
-@media screen and (max-width: 500px) { #lottie { width: 90%; max-width: 100%; }
+@media screen and (max-width: 500px) { .kek12_pertol_p { font-size: 40px; }
+  #lottie { width: 90%; max-width: 100%; }
   .secondt_section__content__text_fleinx h6 a { font-size: 16px; line-height: 20px; }
   .name_former { height: 40px; }
   .form_controller__button { height: 37px; width: 160px; font-size: 14px; }
