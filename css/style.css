@@ -67,6 +67,8 @@ input, input:active, input:focus { outline: none; }
 
 .first_section { width: 100%; height: 100%; margin: 0 auto; background: url("../img/components/first_section.jpg") no-repeat center center; background-size: cover; }
 
+.portfolio_lasr { background: #fdcc00; }
+
 .secondt_section { width: 100%; height: 100%; margin: 0 auto; background: url("../img/components/secondt_section.jpg") no-repeat center center; background-size: cover; }
 
 .therst_section { width: 100%; height: 100%; margin: 0 auto; background: url("../img/components/therst_section.jpg") no-repeat center center; background-size: cover; }
@@ -179,7 +181,21 @@ input, input:active, input:focus { outline: none; }
 
 .portfolio_item_smm__zero { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #0073bb; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
-.portfolio_item_smm__zero__freestyle { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #f7f7f7; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+.portfolio_item_smm__zero__freestyle { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+.portfilio_gray { background: #f7f7f7; }
+
+.portfilio_blue { background: #18509c; }
+
+.portfilio_orange { background: #ffd13c; }
+
+.portfilio_black { background: #151616; }
+
+.portfilio_ohra { background: #be926f; }
+
+.portfilio_dark { background: #132c46; }
+
+.portfolio_greek { background: #f6ebd5; }
 
 .portfolio_item_smm__zero_gr { width: 100%; height: 400px; max-width: 100%; margin: 71px auto 0px auto; background: #26a792; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
@@ -343,7 +359,11 @@ input, input:active, input:focus { outline: none; }
 
 .defaul_form::placeholder { opacity: 0.3; color: #212121; }
 
-.kek12_pertol_p { color: #464646; font-size: 110px; font-family: "HelveticaNeueCyr-Bold"; word-wrap: break-word; }
+.kek12_pertol_p { font-size: 110px; font-family: "HelveticaNeueCyr-Bold"; word-wrap: break-word; }
+
+.fsstudio { color: #464646; }
+
+.monsak_web { color: #fff; }
 
 .portfolio_item_smm__zero_itemflex { width: 100%; margin: 100px auto 0px auto; max-width: 100%; }
 

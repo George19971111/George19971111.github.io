@@ -7,6 +7,9 @@
   background: url("../img/components/first_section.jpg") no-repeat center center;
   background-size: cover;
 }
+.portfolio_lasr {
+  background: #fdcc00;
+}
 .secondt_section {
   width: 100%;
   height: 100%;
@@ -435,9 +438,29 @@
   height: 400px;
   max-width: 100%;
   margin: 71px auto 0px auto;
-  background: #f7f7f7;
   display: flex;
   align-items: center;
+}
+.portfilio_gray {
+  background: #f7f7f7;
+}
+.portfilio_blue {
+  background: #18509c;
+}
+.portfilio_orange {
+  background: #ffd13c;
+}
+.portfilio_black {
+  background: #151616;
+}
+.portfilio_ohra {
+  background: #be926f;
+}
+.portfilio_dark {
+  background: #132c46;
+}
+.portfolio_greek {
+  background: #f6ebd5;
 }
 .portfolio_item_smm__zero_gr {
   width: 100%;
@@ -881,10 +904,15 @@
   color: #212121;
 }
 .kek12_pertol_p {
-  color: #464646;
   font-size: 110px;
   font-family: $boldhel;
   word-wrap: break-word;
+}
+.fsstudio {
+  color: #464646;
+}
+.monsak_web {
+  color: #fff;
 }
 .portfolio_item_smm__zero_itemflex {
   width: 100%;
@@ -1005,12 +1033,12 @@
   }
 }
 @include IpadScreenSecret {
-  .fsstudio__link_fs a{
-    font-size:25px;
+  .fsstudio__link_fs a {
+    font-size: 25px;
   }
-  .fsstudio__link_fs{
+  .fsstudio__link_fs {
     justify-content: center;
-    margin:30px auto 0px auto;
+    margin: 30px auto 0px auto;
   }
   .kek12_pertol_p {
     font-size: 70px;
